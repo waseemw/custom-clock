@@ -1,0 +1,19 @@
+<div [@.disabled]="disableAnimation">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle style="color: white">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Time
+        </mat-panel-title>
+        <mat-panel-description>
+          Choose time
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-form-field style="display: flex">
+        <label>
+          <input [(ngModel)]="text" (change)="change()" matInput type="datetime-local" placeholder="start date" step="1" pattern="([1]?[0-9]|2[0-3]):[0-5][0-9]">
+        </label>
+      </mat-form-field>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

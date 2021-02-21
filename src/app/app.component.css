@@ -1,0 +1,25 @@
+div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+
+h1 {
+  font-size: 20vw;
+  line-height: normal;
+  display: flex;
+  color: #000000;
+  font-family: fantasy;
+}
+
+h2 {
+  display: flex;
+  font-size: 3.5vw;
+  margin-left: -26vw;
+  font-family: fantasy;
+}
